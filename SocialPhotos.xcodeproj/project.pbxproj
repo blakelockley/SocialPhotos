@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1680A01E53EB650033E169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16809F1E53EB650033E169 /* AppDelegate.swift */; };
+		EF1680A21E53EB650033E169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680A11E53EB650033E169 /* ViewController.swift */; };
+		EF1680A51E53EB650033E169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1680A31E53EB650033E169 /* Main.storyboard */; };
+		EF1680A81E53EB650033E169 /* SocialPhotos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF1680A61E53EB650033E169 /* SocialPhotos.xcdatamodeld */; };
+		EF1680AA1E53EB650033E169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1680A91E53EB650033E169 /* Assets.xcassets */; };
+		EF1680AD1E53EB650033E169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1680AB1E53EB650033E169 /* LaunchScreen.storyboard */; };
+		EF1680B81E53EB650033E169 /* SocialPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680B71E53EB650033E169 /* SocialPhotosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1680B41E53EB650033E169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1680941E53EB650033E169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF16809B1E53EB650033E169;
+			remoteInfo = SocialPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF16809C1E53EB650033E169 /* SocialPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16809F1E53EB650033E169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1680A11E53EB650033E169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1680A41E53EB650033E169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1680A71E53EB650033E169 /* SocialPhotos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialPhotos.xcdatamodel; sourceTree = "<group>"; };
+		EF1680A91E53EB650033E169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1680AC1E53EB650033E169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1680AE1E53EB650033E169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1680B31E53EB650033E169 /* SocialPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1680B71E53EB650033E169 /* SocialPhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPhotosTests.swift; sourceTree = "<group>"; };
+		EF1680B91E53EB650033E169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1680991E53EB650033E169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1680B01E53EB650033E169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1680931E53EB650033E169 = {
+			isa = PBXGroup;
+			children = (
+				EF16809E1E53EB650033E169 /* SocialPhotos */,
+				EF1680B61E53EB650033E169 /* SocialPhotosTests */,
+				EF16809D1E53EB650033E169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF16809D1E53EB650033E169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF16809C1E53EB650033E169 /* SocialPhotos.app */,
+				EF1680B31E53EB650033E169 /* SocialPhotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF16809E1E53EB650033E169 /* SocialPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				EF16809F1E53EB650033E169 /* AppDelegate.swift */,
+				EF1680A11E53EB650033E169 /* ViewController.swift */,
+				EF1680A31E53EB650033E169 /* Main.storyboard */,
+				EF1680A91E53EB650033E169 /* Assets.xcassets */,
+				EF1680AB1E53EB650033E169 /* LaunchScreen.storyboard */,
+				EF1680AE1E53EB650033E169 /* Info.plist */,
+				EF1680A61E53EB650033E169 /* SocialPhotos.xcdatamodeld */,
+			);
+			path = SocialPhotos;
+			sourceTree = "<group>";
+		};
+		EF1680B61E53EB650033E169 /* SocialPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1680B71E53EB650033E169 /* SocialPhotosTests.swift */,
+				EF1680B91E53EB650033E169 /* Info.plist */,
+			);
+			path = SocialPhotosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF16809B1E53EB650033E169 /* SocialPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1680BC1E53EB650033E169 /* Build configuration list for PBXNativeTarget "SocialPhotos" */;
+			buildPhases = (
+				EF1680981E53EB650033E169 /* Sources */,
+				EF1680991E53EB650033E169 /* Frameworks */,
+				EF16809A1E53EB650033E169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialPhotos;
+			productName = SocialPhotos;
+			productReference = EF16809C1E53EB650033E169 /* SocialPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1680B21E53EB650033E169 /* SocialPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1680BF1E53EB650033E169 /* Build configuration list for PBXNativeTarget "SocialPhotosTests" */;
+			buildPhases = (
+				EF1680AF1E53EB650033E169 /* Sources */,
+				EF1680B01E53EB650033E169 /* Frameworks */,
+				EF1680B11E53EB650033E169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1680B51E53EB650033E169 /* PBXTargetDependency */,
+			);
+			name = SocialPhotosTests;
+			productName = SocialPhotosTests;
+			productReference = EF1680B31E53EB650033E169 /* SocialPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1680941E53EB650033E169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Blake Lockley";
+				TargetAttributes = {
+					EF16809B1E53EB650033E169 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3785NJEA23;
+						ProvisioningStyle = Automatic;
+					};
+					EF1680B21E53EB650033E169 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3785NJEA23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF16809B1E53EB650033E169;
+					};
+				};
+			};
+			buildConfigurationList = EF1680971E53EB650033E169 /* Build configuration list for PBXProject "SocialPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1680931E53EB650033E169;
+			productRefGroup = EF16809D1E53EB650033E169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF16809B1E53EB650033E169 /* SocialPhotos */,
+				EF1680B21E53EB650033E169 /* SocialPhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF16809A1E53EB650033E169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1680AD1E53EB650033E169 /* LaunchScreen.storyboard in Resources */,
+				EF1680AA1E53EB650033E169 /* Assets.xcassets in Resources */,
+				EF1680A51E53EB650033E169 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1680B11E53EB650033E169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1680981E53EB650033E169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1680A21E53EB650033E169 /* ViewController.swift in Sources */,
+				EF1680A01E53EB650033E169 /* AppDelegate.swift in Sources */,
+				EF1680A81E53EB650033E169 /* SocialPhotos.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1680AF1E53EB650033E169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1680B81E53EB650033E169 /* SocialPhotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1680B51E53EB650033E169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF16809B1E53EB650033E169 /* SocialPhotos */;
+			targetProxy = EF1680B41E53EB650033E169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1680A31E53EB650033E169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1680A41E53EB650033E169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1680AB1E53EB650033E169 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1680AC1E53EB650033E169 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1680BA1E53EB650033E169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1680BB1E53EB650033E169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1680BD1E53EB650033E169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3785NJEA23;
+				INFOPLIST_FILE = SocialPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Lockley.SocialPhotos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF1680BE1E53EB650033E169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3785NJEA23;
+				INFOPLIST_FILE = SocialPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Lockley.SocialPhotos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF1680C01E53EB650033E169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3785NJEA23;
+				INFOPLIST_FILE = SocialPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Lockley.SocialPhotosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialPhotos.app/SocialPhotos";
+			};
+			name = Debug;
+		};
+		EF1680C11E53EB650033E169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3785NJEA23;
+				INFOPLIST_FILE = SocialPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Lockley.SocialPhotosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialPhotos.app/SocialPhotos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1680971E53EB650033E169 /* Build configuration list for PBXProject "SocialPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1680BA1E53EB650033E169 /* Debug */,
+				EF1680BB1E53EB650033E169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1680BC1E53EB650033E169 /* Build configuration list for PBXNativeTarget "SocialPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1680BD1E53EB650033E169 /* Debug */,
+				EF1680BE1E53EB650033E169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1680BF1E53EB650033E169 /* Build configuration list for PBXNativeTarget "SocialPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1680C01E53EB650033E169 /* Debug */,
+				EF1680C11E53EB650033E169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF1680A61E53EB650033E169 /* SocialPhotos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF1680A71E53EB650033E169 /* SocialPhotos.xcdatamodel */,
+			);
+			currentVersion = EF1680A71E53EB650033E169 /* SocialPhotos.xcdatamodel */;
+			path = SocialPhotos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF1680941E53EB650033E169 /* Project object */;
+}
