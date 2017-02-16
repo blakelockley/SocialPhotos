@@ -10,10 +10,17 @@
 		EF1680A01E53EB650033E169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16809F1E53EB650033E169 /* AppDelegate.swift */; };
 		EF1680A21E53EB650033E169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680A11E53EB650033E169 /* ViewController.swift */; };
 		EF1680A51E53EB650033E169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1680A31E53EB650033E169 /* Main.storyboard */; };
-		EF1680A81E53EB650033E169 /* SocialPhotos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF1680A61E53EB650033E169 /* SocialPhotos.xcdatamodeld */; };
 		EF1680AA1E53EB650033E169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1680A91E53EB650033E169 /* Assets.xcassets */; };
 		EF1680AD1E53EB650033E169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1680AB1E53EB650033E169 /* LaunchScreen.storyboard */; };
-		EF1680B81E53EB650033E169 /* SocialPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680B71E53EB650033E169 /* SocialPhotosTests.swift */; };
+		EF1680C51E53EDDD0033E169 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1680C41E53EDDD0033E169 /* locations.json */; };
+		EF1680C71E53F4550033E169 /* SavedLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680C61E53F4550033E169 /* SavedLocationManager.swift */; };
+		EF1680C91E5403B20033E169 /* SavedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680C81E5403B20033E169 /* SavedLocation.swift */; };
+		EF1680CB1E5529220033E169 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680CA1E5529220033E169 /* LocationDetailViewController.swift */; };
+		EF1680CD1E554AAA0033E169 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680CC1E554AAA0033E169 /* ListViewController.swift */; };
+		EF1680CF1E554FD90033E169 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680CE1E554FD90033E169 /* LocationTableViewCell.swift */; };
+		EF1680D31E555DAC0033E169 /* SavedLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680D21E555DAC0033E169 /* SavedLocationTests.swift */; };
+		EF1680D91E556B2C0033E169 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680D81E556B2C0033E169 /* LocationAnnotation.swift */; };
+		EF1680DB1E5575E90033E169 /* SavedLocationsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1680DA1E5575E90033E169 /* SavedLocationsManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +38,20 @@
 		EF16809F1E53EB650033E169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF1680A11E53EB650033E169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF1680A41E53EB650033E169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF1680A71E53EB650033E169 /* SocialPhotos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialPhotos.xcdatamodel; sourceTree = "<group>"; };
 		EF1680A91E53EB650033E169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF1680AC1E53EB650033E169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF1680AE1E53EB650033E169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF1680B31E53EB650033E169 /* SocialPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF1680B71E53EB650033E169 /* SocialPhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPhotosTests.swift; sourceTree = "<group>"; };
 		EF1680B91E53EB650033E169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1680C41E53EDDD0033E169 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		EF1680C61E53F4550033E169 /* SavedLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedLocationManager.swift; sourceTree = "<group>"; };
+		EF1680C81E5403B20033E169 /* SavedLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedLocation.swift; sourceTree = "<group>"; };
+		EF1680CA1E5529220033E169 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		EF1680CC1E554AAA0033E169 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EF1680CE1E554FD90033E169 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		EF1680D21E555DAC0033E169 /* SavedLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedLocationTests.swift; sourceTree = "<group>"; };
+		EF1680D81E556B2C0033E169 /* LocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		EF1680DA1E5575E90033E169 /* SavedLocationsManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedLocationsManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +93,19 @@
 		EF16809E1E53EB650033E169 /* SocialPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				EF1680C41E53EDDD0033E169 /* locations.json */,
 				EF16809F1E53EB650033E169 /* AppDelegate.swift */,
 				EF1680A11E53EB650033E169 /* ViewController.swift */,
+				EF1680C61E53F4550033E169 /* SavedLocationManager.swift */,
+				EF1680D81E556B2C0033E169 /* LocationAnnotation.swift */,
+				EF1680C81E5403B20033E169 /* SavedLocation.swift */,
+				EF1680CA1E5529220033E169 /* LocationDetailViewController.swift */,
+				EF1680CC1E554AAA0033E169 /* ListViewController.swift */,
+				EF1680CE1E554FD90033E169 /* LocationTableViewCell.swift */,
 				EF1680A31E53EB650033E169 /* Main.storyboard */,
 				EF1680A91E53EB650033E169 /* Assets.xcassets */,
 				EF1680AB1E53EB650033E169 /* LaunchScreen.storyboard */,
 				EF1680AE1E53EB650033E169 /* Info.plist */,
-				EF1680A61E53EB650033E169 /* SocialPhotos.xcdatamodeld */,
 			);
 			path = SocialPhotos;
 			sourceTree = "<group>";
@@ -93,7 +113,8 @@
 		EF1680B61E53EB650033E169 /* SocialPhotosTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF1680B71E53EB650033E169 /* SocialPhotosTests.swift */,
+				EF1680D21E555DAC0033E169 /* SavedLocationTests.swift */,
+				EF1680DA1E5575E90033E169 /* SavedLocationsManagerTests.swift */,
 				EF1680B91E53EB650033E169 /* Info.plist */,
 			);
 			path = SocialPhotosTests;
@@ -186,6 +207,7 @@
 			files = (
 				EF1680AD1E53EB650033E169 /* LaunchScreen.storyboard in Resources */,
 				EF1680AA1E53EB650033E169 /* Assets.xcassets in Resources */,
+				EF1680C51E53EDDD0033E169 /* locations.json in Resources */,
 				EF1680A51E53EB650033E169 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,9 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1680C71E53F4550033E169 /* SavedLocationManager.swift in Sources */,
+				EF1680CF1E554FD90033E169 /* LocationTableViewCell.swift in Sources */,
+				EF1680C91E5403B20033E169 /* SavedLocation.swift in Sources */,
+				EF1680CD1E554AAA0033E169 /* ListViewController.swift in Sources */,
 				EF1680A21E53EB650033E169 /* ViewController.swift in Sources */,
 				EF1680A01E53EB650033E169 /* AppDelegate.swift in Sources */,
-				EF1680A81E53EB650033E169 /* SocialPhotos.xcdatamodeld in Sources */,
+				EF1680CB1E5529220033E169 /* LocationDetailViewController.swift in Sources */,
+				EF1680D91E556B2C0033E169 /* LocationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1680B81E53EB650033E169 /* SocialPhotosTests.swift in Sources */,
+				EF1680DB1E5575E90033E169 /* SavedLocationsManagerTests.swift in Sources */,
+				EF1680D31E555DAC0033E169 /* SavedLocationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,19 +452,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EF1680A61E53EB650033E169 /* SocialPhotos.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EF1680A71E53EB650033E169 /* SocialPhotos.xcdatamodel */,
-			);
-			currentVersion = EF1680A71E53EB650033E169 /* SocialPhotos.xcdatamodel */;
-			path = SocialPhotos.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = EF1680941E53EB650033E169 /* Project object */;
 }
