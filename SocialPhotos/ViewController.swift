@@ -79,10 +79,10 @@ class ViewController: UIViewController, MKMapViewDelegate {
                               lng: self.mapView.centerCoordinate.longitude,
                               notes: nil)
 
-      let annotation = MKPointAnnotation()
+      let annotation = LocationAnnotation()
       annotation.title = loc.name
       annotation.coordinate = loc.coordinate
-
+      annotation.savedLocation = loc
       self.mapView.addAnnotation(annotation)
 
       SavedLocationManager.sharedManager.update(location: loc)
@@ -98,14 +98,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
   }
 
   //MARK: MKMapViewDelegate
-  func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-    let view = MKAnnotationView.init(annotation: annotation, reuseIdentifier: "pin")
-    view.isDraggable = true
-    view.tintColor = UIColor.blue
-    view.canShowCallout = false
-    return nil
-  }
-
   func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
     selectedLocation = (view.annotation as! LocationAnnotation).savedLocation
     performSegue(withIdentifier: Segue.detail.rawValue, sender: nil)
